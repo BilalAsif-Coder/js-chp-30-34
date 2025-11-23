@@ -70,6 +70,21 @@ let laterDate = new Date("31 dec 2020")
 console.log(laterDate)
 
 
+//Q no 9 
+//A no 9 
+
+let date5 = new Date()
+let current = date5.getTime()
+let newDate = new Date ("18 june 2015")
+let year15 = newDate.getTime()
+let total = current - year15 
+console.log(total)
+total = Math.round(total / (1000*60*60*24))
+console.log(`The remaning days of ramzan ${total}`) 
+
+
+
+
 
 
 
